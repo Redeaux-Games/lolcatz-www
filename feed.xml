@@ -3,12 +3,35 @@
     <title>ŁôŁℂḁṭẕ 😻</title>
     <link href="https://lolcatz.xyz/feed.xml" rel="self" />
     <link href="https://lolcatz.xyz" />
-    <updated>2022-12-16T05:51:05-06:00</updated>
+    <updated>2022-12-16T07:26:58-06:00</updated>
     <author>
         <name>Redeaux Corp.</name>
     </author>
     <id>https://lolcatz.xyz</id>
 
+    <entry>
+        <title>Community</title>
+        <author>
+            <name>Redeaux Corp.</name>
+        </author>
+        <link href="https://lolcatz.xyz/community/"/>
+        <id>https://lolcatz.xyz/community/</id>
+
+        <updated>2022-12-16T07:26:58-06:00</updated>
+            <summary>
+                <![CDATA[
+                    We will try to create a chat room here!
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    We will try to create a chat room here!
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Buy ŁôŁℂḁṭẕ 😻 Desktop</title>
         <author>
@@ -16,18 +39,18 @@
         </author>
         <link href="https://lolcatz.xyz/buy-lolcatz/"/>
         <id>https://lolcatz.xyz/buy-lolcatz/</id>
-        <media:content url="https://lolcatz.xyz/media/posts/2/lolcatz-banner.jpg" medium="image" />
+        <media:content url="https://lolcatz.xyz/media/posts/2/lolz2.webp" medium="image" />
 
-        <updated>2022-12-16T05:44:43-06:00</updated>
+        <updated>2022-12-16T06:11:50-06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://lolcatz.xyz/media/posts/2/lolcatz-banner.jpg" alt="" />
+                        <img src="https://lolcatz.xyz/media/posts/2/lolz2.webp" alt="" />
                     Head over to&nbsp;https://wallet.myalgo.com&nbsp;and sign-in if you already have a wallet, if you don't then create a new one... You will need to purchase Algorand at a decentralized exchange like Coinbase, or from right within the MyAlgoWallet.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://lolcatz.xyz/media/posts/2/lolcatz-banner.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://lolcatz.xyz/media/posts/2/lolz2.webp" class="type:primaryImage" alt="" /></p>
                 
     <figure class="post__image post__image--center">
       <a href="https://wallet.myalgo.com/" rel="nofollow noopener" target="_blank">
