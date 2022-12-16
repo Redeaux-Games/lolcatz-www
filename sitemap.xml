@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://lolcatz.xyz/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://lolcatz.xyz/</loc>
+</url>
+<url>
+<loc>https://lolcatz.xyz/battle-catz/</loc>
+<lastmod>2022-12-16T05:51:05-06:00</lastmod>
+<image:image>
+<image:loc>https://lolcatz.xyz/media/posts/1/battle-catz-1-2.webp</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://lolcatz.xyz/buy-lolcatz/</loc>
+<lastmod>2022-12-16T05:44:43-06:00</lastmod>
+<image:image>
+<image:loc>https://lolcatz.xyz/media/posts/2/lolcatz-banner.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>
