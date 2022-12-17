@@ -7,13 +7,13 @@
     LOLZ Price:<ul> </ul>
     <br>
 <script>
-    fetch('https://free-api.vestige.fi/asset/467518794/price?currency=ALGO')
+    fetch('https://free-api.vestige.fi/asset/467518794/price')
       .then(res => {
         return res.json();
     )}
       .then(data => {
         data.forEach(price => {
-          const markup = `<li>${price}</li>`;
+          const markup = `<li>${"price"}</li>`;
           
           document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
     )}
