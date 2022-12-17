@@ -10,20 +10,6 @@
     },
     "items": [
         {
-            "id": "https://lolcatz.xyz/community/",
-            "url": "https://lolcatz.xyz/community/",
-            "title": "Community",
-            "summary": "We will try to create a chat room here!",
-            "content_html": "\n  <p>\n    We will try to create a chat room here!\n  </p>",
-            "author": {
-                "name": "Redeaux Corp."
-            },
-            "tags": [
-            ],
-            "date_published": "2022-12-16T07:26:43-06:00",
-            "date_modified": "2022-12-16T07:26:58-06:00"
-        },
-        {
             "id": "https://lolcatz.xyz/buy-lolcatz/",
             "url": "https://lolcatz.xyz/buy-lolcatz/",
             "title": "Buy ŁôŁℂḁṭẕ 😻 Desktop",
