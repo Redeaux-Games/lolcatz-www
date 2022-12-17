@@ -17,3 +17,25 @@
 </script>
   </body>
 </html>
+<html>
+  <head>
+    <title>Testing API</title>
+  </head>
+  <body>
+    LOLZ Price:<ul> </ul>
+    <br>
+<script>
+    fetch('https://free-api.vestige.fi/asset/467518794/price?currency=ALGO')
+      .then(res => {
+        return res.json();
+    )}
+      .then(data => {
+        data.forEach(price => {
+          const markup = `<li>${price}</li>`;
+          
+          document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
+    )}
+    catch(error => console.log(error));
+</script>
+  </body>
+</html>
