@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+  <div class="price">
+<center><a href="https://vestige.fi/asset/467518794" target="_blank" rel="no-follow"><button class="button-price"><img src="https://res.cloudinary.com/redeauxgames/image/upload/c_scale,q_auto,w_32/v1671308004/lolz/lolz.webp" border="0"><span class="vest"></span></button></a></center>
+  </div>
+    <br>
+<script>
+    fetch('https://free-api.vestige.fi/asset/467518794/price')
+      .then(res => {
+        console.log(res);
+        return res.json();
+      })
+      .then(data => {
+       console.log(data.price);
+         const markup = `<a>${data.price.toFixed(4)}</a>`;
+         document.querySelector('span').insertAdjacentHTML('beforeEnd', markup);
+      })
+      .catch(error => console.log(error));
+</script>
+<style>
+.price {
+  background-color: #00000000;
+  color: #000;
+}
+
+.button-price {
+  background-color: #0ebcc5;
+  border: 5px;
+  border-color: #FF00FF;
+  color: #FF00FF;
+  font-size: 1.5em;
+  font-family: monospace;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.vest {
+  top: -8px;
+  position: relative;
+  margin: 1px 2px;
+}
+</style>
+<html>
